@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Kumar's — Chapra Ka Apna Brand | Since 1984</title>
+  <meta name="description" content="Kumar's — heritage Indian sweets, cakes, ice cream, café & catering from Chapra, Bihar. Since 1984. Find our 3 stores and visit us today.">
+  <meta name="keywords" content="Kumar's Chapra, Indian sweets Chapra, cakes Chapra, ice cream Chapra, café Chapra, catering Bihar, mithai shop Chapra, Kumar's Ice Sweet Parlour">
+  <meta name="author" content="Kumar's">
+  <meta name="theme-color" content="#C8922A">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kumars-chapra.vercel.app/">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kumar's — Chapra Ka Apna Brand | Since 1984">
+  <meta property="og:description" content="Heritage Indian sweets, cakes, ice cream, café & catering from Chapra, Bihar. Since 1984.">
+  <meta property="og:image" content="assets/logo.png">
+  <meta property="og:locale" content="en_IN">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Kumar's — Since 1984">
+  <meta name="twitter:description" content="Chapra Ka Apna Brand. Sweets, cakes, ice cream, café & catering.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Kumar's",
+    "description": "Heritage Indian sweets, cakes, ice cream, café & catering from Chapra, Bihar since 1984.",
+    "foundingDate": "1984",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chapra",
+      "addressRegion": "Bihar",
+      "addressCountry": "IN"
+    },
+    "telephone": ["+917004013495", "+918210863455"],
+    "sameAs": ["https://instagram.com/kumars.chhapra"],
+    "servesCuisine": "Indian Sweets, Cakes, Ice Cream",
+    "priceRange": "$$",
+    "image": "assets/logo.png",
+    "hasMap": "https://maps.app.goo.gl/aA5bDmrGQ4cJrWXk6"
+  }
+  </script>
+
+  <style>
+    /* ========================================
+       RESET & BASE
+       ======================================== */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+      font-size: 16px; /* Base size */
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    body {
+      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background-color: #FEFCF6;
+      color: #3A2415;
+      line-height: 1.65;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 2px solid #B8862D;
+      outline-offset: 3px;
+    }
+
+    /* Skip link */
+    .skip-link {
+      position: absolute;
+      top: -100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #B8862D;
+      color: #fff;
+      padding: 10px 24px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      z-index: 100;
+      transition: top 0.2s ease;
+    }
+    .skip-link:focus { top: 0; }
+
+    /* ========================================
+       DESIGN TOKENS — Refined palette
+       ======================================== */
+    :root {
+      --bg-primary: #FEFCF6;
+      --bg-cream: #FFF9EF;
+      --bg-warm: #F6EFE3;
+      --bg-rose: #FBF3EE;
+      --bg-catering: #FDF6EC;
+
+      --gold: #B8862D;
+      --gold-rich: #A07228;
+      --gold-light: #D4AA5C;
+      --gold-pale: #EDD9A8;
+      --gold-faint: rgba(184, 134, 45, 0.08);
+
+      --brown: #3A2415;
+      --brown-mid: #5C3D2E;
+      --brown-muted: #7D6555;
+      --brown-light: #9E8A7A;
+
+      --saffron: #C96B28;
+      --maroon: #5E1A24;
+      --maroon-deep: #461420;
+      --rose-warm: #E8C8B0;
+
+      --text-primary: #3A2415;
+      --text-secondary: #5C3D2E;
+      --text-muted: #7D6555;
+      --text-light: #9E8A7A;
+    }
+
+    /* ========================================
+       ORNAMENT
+       ======================================== */
+    .ornament {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      padding: 10px 0;
+    }
+
+    .ornament::before,
+    .ornament::after {
+      content: '';
+      width: 40px;
+      height: 1px;
+      background: var(--gold);
+      opacity: 0.4;
+    }
+
+    .ornament-diamond {
+      width: 6px;
+      height: 6px;
+      background: var(--gold);
+      transform: rotate(45deg);
+      flex-shrink: 0;
+      opacity: 0.6;
+    }
+
+    .ornament-wide::before,
+    .ornament-wide::after {
+      width: 56px;
+    }
+
+    /* ========================================
+       FADE-IN
+       ======================================== */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ========================================
+       FLOATING DECORATIVE GRAPHICS
+       ======================================== */
+    @keyframes floatA {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-14px) rotate(3deg); }
+    }
+    @keyframes floatB {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-10px) rotate(-4deg); }
+    }
+    @keyframes floatC {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-18px) rotate(2deg); }
+    }
+
+    .floater {
+      position: absolute;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.35;
+      will-change: transform;
+    }
+    .floater svg { width: 100%; height: 100%; }
+
+    .floater--a { animation: floatA 6s ease-in-out infinite; }
+    .floater--b { animation: floatB 7s ease-in-out infinite; }
+    .floater--c { animation: floatC 8s ease-in-out infinite; }
+    .floater--d { animation: floatA 9s ease-in-out infinite; }
+    .floater--e { animation: floatB 5.5s ease-in-out infinite; }
+    .floater--f { animation: floatC 7.5s ease-in-out infinite; }
+
+    .hero, .stores, .specialties, .heritage, .catering-highlight {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero > *:not(.floater):not(.hero-bottom-border),
+    .stores > *:not(.floater),
+    .specialties > *:not(.floater),
+    .heritage > *:not(.floater),
+    .catering-highlight > *:not(.floater) {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ========================================
+       SECTION SHARED
+       ======================================== */
+    .section-padding {
+      padding: 72px 24px;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .section-label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    .section-title {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-weight: 600;
+      font-size: 2rem;
+      color: var(--brown);
+      margin-bottom: 12px;
+      letter-spacing: 0.01em;
+      line-height: 1.2;
+    }
+
+    .section-subtitle {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.5;
+    }
+
+    /* ========================================
+       1. HERO
+       ======================================== */
+    .hero {
+      background: var(--bg-cream);
+      background-image: radial-gradient(ellipse at 50% 20%, #FFF9EF 0%, #FFF1D8 100%);
+      padding: 64px 24px 56px;
+      text-align: center;
+      min-height: 100svh;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, transparent 10%, var(--gold) 50%, transparent 90%);
+    }
+
+    .hero-since {
+      display: inline-block;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.75rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--gold);
+      border: 1px solid var(--gold-light);
+      padding: 8px 24px;
+      margin-bottom: 32px;
+    }
+
+    .hero-logo {
+      width: 170px;
+      height: auto;
+      margin: 0 auto 36px;
+      filter: drop-shadow(0 4px 12px rgba(58, 36, 21, 0.06));
+    }
+
+    .hero-brand {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 3.2rem;
+      font-weight: 700;
+      color: var(--brown);
+      line-height: 1.1;
+      margin-bottom: 8px;
+      letter-spacing: -0.01em;
+    }
+
+    .hero-tagline-brand {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+
+    .hero-tagline {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 1.25rem;
+      font-weight: 500;
+      font-style: italic;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      max-width: 340px;
+      margin: 0 auto 40px;
+    }
+
+    .hero-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--gold);
+      color: #fff;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.9rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 18px 40px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.15s ease, box-shadow 0.3s ease;
+      min-height: 56px;
+      box-shadow: 0 4px 14px rgba(184, 134, 45, 0.25);
+      border-radius: 40px;
+    }
+
+    .hero-cta:hover {
+      background: var(--gold-rich);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(184, 134, 45, 0.35);
+    }
+    .hero-cta:active { transform: translateY(0); box-shadow: 0 2px 8px rgba(184, 134, 45, 0.2); }
+    .hero-cta svg { width: 18px; height: 18px; flex-shrink: 0; }
+
+    .hero-bottom-border {
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent 15%, var(--gold-light) 50%, transparent 85%);
+      position: absolute;
+      bottom: 0; left: 0;
+      opacity: 0.5;
+    }
+
+    /* ========================================
+       2. OUR STORES
+       ======================================== */
+    .stores {
+      background: var(--bg-warm);
+    }
+
+    .stores::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 50%;
+      transform: translateX(-50%);
+      width: 48px;
+      height: 1px;
+      background: var(--gold);
+      opacity: 0.35;
+    }
+
+    .store-card {
+      background: var(--bg-cream);
+      border: 1px solid rgba(184, 134, 45, 0.18);
+      padding: 36px 32px 32px;
+      margin-bottom: 20px;
+      position: relative;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+      border-radius: 24px;
+    }
+
+    /* Mithai Box Inner packaging border */
+    .store-card::before {
+      content: '';
+      position: absolute;
+      top: 6px; left: 6px; right: 6px; bottom: 6px;
+      border: 1px solid rgba(184, 134, 45, 0.12);
+      border-radius: 18px;
+      pointer-events: none;
+    }
+
+    .store-card:last-child { margin-bottom: 0; }
+
+    .store-card:hover {
+      border-color: rgba(184, 134, 45, 0.4);
+      box-shadow: 0 8px 24px rgba(184, 134, 45, 0.08);
+      transform: translateY(-2px);
+    }
+
+    /* NEW tag for Branch 3 */
+    .store-card--new {
+      border-color: var(--saffron);
+      border-width: 1.5px;
+    }
+    .store-card--new::before {
+      border-color: rgba(201, 107, 40, 0.2);
+    }
+    .store-card--new:hover {
+      border-color: var(--saffron);
+    }
+
+    .store-new-tag {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      background: var(--saffron);
+      color: #fff;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      line-height: 1;
+      border-radius: 30px;
+    }
+
+    .store-branch-num {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 0.9rem;
+      letter-spacing: 0.18em;
+      color: var(--gold);
+      font-weight: 700;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-transform: uppercase;
+    }
+
+    .store-branch-num::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--gold-light);
+      opacity: 0.4;
+      max-width: 56px;
+    }
+
+    .store-pin {
+      width: 22px;
+      height: 22px;
+      color: var(--gold);
+      flex-shrink: 0;
+    }
+
+    .store-name {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 1.45rem;
+      font-weight: 600;
+      color: var(--brown);
+      line-height: 1.3;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .store-name-text { flex: 1; }
+
+    .store-address {
+      font-size: 1rem;
+      color: var(--text-muted);
+      font-weight: 400;
+      line-height: 1.5;
+      margin-bottom: 24px;
+      padding-left: 34px;
+    }
+
+    .store-maps-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: transparent;
+      color: var(--gold);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.85rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 14px 24px;
+      border: 1.5px solid var(--gold);
+      cursor: pointer;
+      transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+      min-height: 52px;
+      border-radius: 40px;
+    }
+
+    .store-maps-btn:hover {
+      background: var(--gold);
+      color: #fff;
+      box-shadow: 0 4px 14px rgba(184, 134, 45, 0.2);
+    }
+    .store-maps-btn svg { width: 16px; height: 16px; flex-shrink: 0; }
+
+    /* ========================================
+       2.5 CATERING HIGHLIGHT
+       ======================================== */
+    .catering-highlight {
+      background: var(--bg-catering);
+      background-image: linear-gradient(135deg, rgba(184,134,45,0.03) 0%, rgba(201,107,40,0.05) 100%);
+      padding: 64px 24px;
+      text-align: center;
+      border-bottom: 1px solid rgba(184, 134, 45, 0.12);
+    }
+
+    .catering-badge {
+      display: inline-block;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: #fff;
+      background: var(--saffron);
+      padding: 6px 20px;
+      margin-bottom: 24px;
+      border-radius: 30px;
+    }
+
+    .catering-title {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--brown);
+      line-height: 1.25;
+      margin-bottom: 12px;
+    }
+
+    .catering-subtitle {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 1.2rem;
+      font-weight: 500;
+      font-style: italic;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+
+    .catering-desc {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+      max-width: 420px;
+      margin: 0 auto 32px;
+    }
+
+    .catering-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--saffron);
+      color: #fff;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 16px 32px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.15s ease, box-shadow 0.3s ease;
+      min-height: 52px;
+      box-shadow: 0 4px 14px rgba(201, 107, 40, 0.2);
+      border-radius: 40px;
+    }
+
+    .catering-cta:hover {
+      background: #B55E20;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(201, 107, 40, 0.3);
+    }
+    .catering-cta:active { transform: translateY(0); box-shadow: 0 2px 8px rgba(201, 107, 40, 0.15); }
+    .catering-cta svg { width: 16px; height: 16px; flex-shrink: 0; }
+
+    .catering-ornament {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 32px;
+    }
+    .catering-ornament::before,
+    .catering-ornament::after {
+      content: '';
+      width: 40px;
+      height: 1px;
+      background: var(--saffron);
+      opacity: 0.3;
+    }
+    .catering-ornament-dot {
+      width: 5px;
+      height: 5px;
+      background: var(--saffron);
+      border-radius: 50%;
+      opacity: 0.5;
+    }
+
+    /* ========================================
+       3. SPECIALTIES
+       ======================================== */
+    .specialties {
+      background: var(--bg-rose);
+    }
+
+    .specialties-grid {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      gap: 16px;
+      padding: 10px 0 32px 24px; /* Left padding matches container, bottom for shadow/scroll */
+      margin: 0 -24px; /* Break out of container to edge of screen */
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* IE/Edge */
+    }
+    .specialties-grid::-webkit-scrollbar {
+      display: none; /* Chrome/Safari */
+    }
+
+    .specialty-item {
+      flex: 0 0 75%; /* Show 75% of a card so the next one peeks in */
+      scroll-snap-align: center;
+      background: #FFFFFF;
+      border-radius: 80px 80px 24px 24px;
+      padding: 44px 24px 36px;
+      text-align: center;
+      border: 1px solid rgba(184, 134, 45, 0.12);
+      box-shadow: 0 4px 16px rgba(58, 36, 21, 0.04);
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+      position: relative;
+      z-index: 2; /* keep above section floaters */
+    }
+
+    .specialty-item::after {
+      content: '';
+      position: absolute;
+      top: 6px; left: 6px; right: 6px; bottom: 6px;
+      border: 1px solid rgba(184, 134, 45, 0.12);
+      border-radius: 74px 74px 18px 18px;
+      pointer-events: none;
+    }
+    
+    /* Ensure the last item has right margin so it doesn't stick to the edge */
+    .specialty-item:last-child {
+      margin-right: 24px;
+    }
+
+    .specialty-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 32px rgba(184, 134, 45, 0.12);
+      border-color: rgba(184, 134, 45, 0.4);
+    }
+
+    .specialty-icon-wrapper {
+      width: 76px;
+      height: 76px;
+      margin: 0 auto 20px;
+      background: var(--bg-warm);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold);
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    .specialty-item:hover .specialty-icon-wrapper {
+      background: var(--gold);
+      color: #FFF;
+    }
+
+    .specialty-icon {
+      width: 40px;
+      height: 40px;
+    }
+
+    .specialty-name {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--brown);
+      letter-spacing: 0.02em;
+      margin-bottom: 6px;
+    }
+
+    .specialty-desc {
+      font-size: 1rem;
+      color: var(--text-muted);
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.5;
+    }
+
+    /* ========================================
+       4. HERITAGE
+       ======================================== */
+    .heritage {
+      background: var(--bg-cream);
+      padding: 72px 24px;
+      text-align: center;
+      border-top: 1px solid rgba(184, 134, 45, 0.12);
+    }
+
+    .heritage-year {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 2.6rem;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 10px;
+      letter-spacing: 0.02em;
+    }
+
+    .heritage-tagline {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      font-style: italic;
+      color: var(--brown);
+      line-height: 1.45;
+    }
+
+    .heritage-body {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+      max-width: 360px;
+      margin: 16px auto 0;
+    }
+
+    /* ========================================
+       5. FOOTER
+       ======================================== */
+    .footer {
+      background: var(--maroon);
+      color: var(--gold-pale);
+      padding: 56px 24px 40px;
+      text-align: center;
+      position: relative;
+    }
+
+    .footer::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent 10%, var(--gold) 50%, transparent 90%);
+    }
+
+    .footer-title {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      margin-bottom: 28px;
+    }
+
+    .footer-brand {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #FFF9EF;
+      margin-bottom: 8px;
+    }
+
+    .footer-location {
+      font-size: 1rem;
+      color: var(--gold-pale);
+      font-weight: 400;
+      margin-bottom: 32px;
+      opacity: 0.85;
+    }
+
+    .footer-divider {
+      width: 48px;
+      height: 1px;
+      background: var(--gold);
+      opacity: 0.35;
+      margin: 0 auto 32px;
+    }
+
+    .footer-phone { margin-bottom: 32px; }
+
+    .footer-phone-label,
+    .footer-instagram-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      font-weight: 600;
+      margin-bottom: 12px;
+      opacity: 0.7;
+    }
+
+    .footer-phone-numbers {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .footer-phone-link,
+    .footer-instagram-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: #FFF9EF;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      padding: 14px 28px;
+      border: 1px solid rgba(212, 170, 92, 0.25);
+      transition: border-color 0.3s ease, background 0.3s ease;
+      border-radius: 40px;
+    }
+
+    .footer-phone-link:hover,
+    .footer-instagram-link:hover {
+      border-color: var(--gold);
+      background: rgba(212, 170, 92, 0.1);
+    }
+
+    .footer-phone-link svg {
+      width: 18px; height: 18px;
+      color: var(--gold-light);
+      flex-shrink: 0;
+    }
+
+    .footer-phone-link { letter-spacing: 0.06em; }
+    .footer-instagram { margin-bottom: 36px; }
+    .footer-instagram-label { margin-bottom: 12px; }
+    .footer-instagram-link svg {
+      width: 20px; height: 20px;
+      color: var(--gold-light);
+    }
+
+    .footer-stores-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--gold);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 16px 32px;
+      border: 1.5px solid var(--gold);
+      transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+      margin-bottom: 48px;
+      min-height: 52px;
+      border-radius: 40px;
+    }
+
+    .footer-stores-link:hover {
+      background: var(--gold);
+      color: var(--maroon);
+      box-shadow: 0 4px 16px rgba(184, 134, 45, 0.2);
+    }
+
+    .footer-copyright {
+      font-size: 0.85rem;
+      color: var(--gold-pale);
+      opacity: 0.5;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+    }
+
+    /* ========================================
+       RESPONSIVE — Tablet (768px+)
+       ======================================== */
+    @media (min-width: 768px) {
+      .section-padding { padding: 96px 48px; }
+      .hero { padding: 96px 48px 80px; }
+      .hero-logo { width: 190px; }
+      .hero-brand { font-size: 4.2rem; }
+      .hero-tagline { font-size: 1.4rem; max-width: 480px; }
+      .section-title { font-size: 2.4rem; }
+      .section-subtitle { font-size: 1.2rem; }
+
+      .store-card {
+        padding: 40px 36px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+      }
+
+      .specialties-grid { 
+        flex-wrap: wrap; 
+        justify-content: center; 
+        overflow-x: visible; 
+        padding-bottom: 0; 
+        margin: 0 auto; 
+        max-width: 720px; 
+        gap: 24px; 
+      }
+      .specialty-item { 
+        flex: 0 0 auto; 
+        width: calc(50% - 12px); 
+      }
+      .specialty-item:last-child {
+        margin-right: 0;
+      }
+
+      .heritage { padding: 96px 48px; }
+      .heritage-year { font-size: 3.2rem; }
+      .heritage-body { font-size: 1.15rem; max-width: 480px; }
+      
+      .catering-highlight { padding: 80px 48px; }
+      .catering-title { font-size: 2.4rem; }
+      .catering-desc { font-size: 1.2rem; max-width: 520px; }
+
+      .footer { padding: 72px 48px 48px; }
+    }
+
+    /* ========================================
+       RESPONSIVE — Desktop (1024px+)
+       ======================================== */
+    @media (min-width: 1024px) {
+      .section-padding { padding: 112px 64px; }
+      .hero { padding: 112px 64px 96px; }
+      .hero-logo { width: 200px; }
+      .hero-brand { font-size: 4.8rem; }
+
+      .stores-grid-wrapper {
+        display: flex;
+        gap: 24px;
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      .store-card { flex: 1; margin-bottom: 0; }
+
+      .specialties-grid {
+        max-width: 1000px;
+      }
+      .specialty-item { width: calc(33.333% - 16px); }
+
+      .heritage-tagline { font-size: 1.8rem; }
+      .catering-highlight { padding: 96px 64px; }
+      .catering-title { font-size: 2.8rem; }
+      .footer { padding: 80px 64px 56px; }
+    }
+
+    /* ========================================
+       PRINT STYLES
+       ======================================== */
+    @media print {
+      .floater, .hero-bottom-border, .ornament, .skip-link,
+      .catering-ornament, .store-new-tag, .catering-badge { display: none; }
+      .hero { min-height: auto; padding: 24px; }
+      .specialty-item { break-inside: avoid; border: 1px solid #ccc; box-shadow: none; }
+      .footer { background: #fff; color: #3A2415; border-top: 1px solid #ccc; }
+      .footer-phone-link, .footer-instagram-link, .footer-stores-link,
+      .store-maps-btn { border-color: #3A2415; color: #3A2415; }
+      body { font-size: 12pt; background: #fff; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <a href="#stores" class="skip-link">Skip to Store Locations</a>
+
+  <!-- ============================================
+       1. HERO
+       ============================================ -->
+  <header class="hero" id="hero" role="banner">
+
+    <div class="floater floater--a" style="top:12%;right:8%;width:52px;height:52px" aria-hidden="true">
+      <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="#B8862D" stroke-width="1.2"/><circle cx="24" cy="24" r="13" stroke="#B8862D" stroke-width="0.8" opacity="0.4"/><circle cx="20" cy="20" r="2" fill="#B8862D" opacity="0.3"/><circle cx="28" cy="22" r="1.5" fill="#B8862D" opacity="0.25"/><circle cx="22" cy="28" r="1.8" fill="#B8862D" opacity="0.3"/><circle cx="27" cy="17" r="1.2" fill="#B8862D" opacity="0.2"/></svg>
+    </div>
+    <div class="floater floater--b" style="bottom:15%;left:6%;width:48px;height:48px" aria-hidden="true">
+      <svg viewBox="0 0 48 48" fill="none"><path d="M10 34h28" stroke="#B8862D" stroke-width="1.2"/><rect x="14" y="26" width="20" height="8" rx="1.5" stroke="#B8862D" stroke-width="1.2"/><rect x="16" y="19" width="16" height="7" rx="1.5" stroke="#B8862D" stroke-width="1"/><line x1="24" y1="14" x2="24" y2="10" stroke="#B8862D" stroke-width="1"/><circle cx="24" cy="9" r="1.5" fill="#B8862D" opacity="0.35"/></svg>
+    </div>
+    <div class="floater floater--c" style="top:35%;left:5%;width:40px;height:40px" aria-hidden="true">
+      <svg viewBox="0 0 48 48" fill="none"><path d="M20 28l4 14 4-14" stroke="#B8862D" stroke-width="1.2" stroke-linecap="round"/><circle cx="24" cy="22" r="7" stroke="#B8862D" stroke-width="1.2"/><circle cx="19" cy="20" r="4.5" stroke="#B8862D" stroke-width="0.8" opacity="0.5"/><circle cx="29" cy="20" r="4.5" stroke="#B8862D" stroke-width="0.8" opacity="0.5"/></svg>
+    </div>
+    <div class="floater floater--d" style="top:55%;right:10%;width:34px;height:34px" aria-hidden="true">
+      <svg viewBox="0 0 48 48" fill="none"><ellipse cx="24" cy="26" rx="12" ry="14" stroke="#B8862D" stroke-width="1.2"/><path d="M18 22c2-1 4 0 6-1s3-2 6-1" stroke="#B8862D" stroke-width="0.7" opacity="0.4"/></svg>
+    </div>
+
+    <div class="hero-since fade-in">SINCE 1984</div>
+
+    <img src="assets/logo.png" alt="Kumar's — Best Taste and Quality in Chapra" class="hero-logo fade-in" width="170" height="165" fetchpriority="high" decoding="async">
+
+    <h1 class="hero-brand fade-in">Kumar's</h1>
+    <p class="hero-tagline-brand fade-in">Chapra Ka Apna Brand</p>
+
+    <div class="ornament fade-in" aria-hidden="true"><span class="ornament-diamond"></span></div>
+
+    <p class="hero-tagline fade-in">Sweetness, celebrations &amp; memories since 1984.</p>
+
+    <a href="#stores" class="hero-cta fade-in" aria-label="Scroll to store locations">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Find a Kumar's Near You
+    </a>
+
+    <div class="hero-bottom-border" aria-hidden="true"></div>
+  </header>
+
+  <main>
+  <!-- ============================================
+       2. OUR STORES
+       ============================================ -->
+  <section class="stores section-padding" id="stores" aria-labelledby="stores-heading">
+
+    <div class="floater floater--e" style="top:8%;right:6%;width:36px;height:36px" aria-hidden="true">
+      <svg viewBox="0 0 48 48" fill="none"><rect x="12" y="12" width="24" height="24" rx="2" transform="rotate(45 24 24)" stroke="#B8862D" stroke-width="1.2"/><circle cx="24" cy="24" r="2" fill="#B8862D" opacity="0.2"/></svg>
+    </div>
+    <div class="floater floater--f" style="bottom:6%;left:5%;width:42px;height:42px" aria-hidden="true">
+      <svg viewBox="0 0 48 48" fill="none"><path d="M14 26h20l-3 14H17l-3-14z" stroke="#B8862D" stroke-width="1.2"/><path d="M14 26c0-5 3-8 5-9s4-1 5-1 3 0 5 1 5 4 5 9" stroke="#B8862D" stroke-width="1"/><circle cx="24" cy="13" r="1.2" fill="#B8862D" opacity="0.3"/></svg>
+    </div>
+
+    <div class="section-header fade-in">
+      <span class="section-label">Locations</span>
+      <h2 class="section-title" id="stores-heading">Our Stores</h2>
+      <p class="section-subtitle">Find your nearest Kumar's.</p>
+    </div>
+
+    <div class="stores-grid-wrapper">
+
+      <!-- Branch 01 -->
+      <article class="store-card fade-in">
+        <div class="store-branch-num">Branch 01</div>
+        <div class="store-name">
+          <svg class="store-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span class="store-name-text">Kumar's Ice &amp; Sweet Parlour</span>
+        </div>
+        <p class="store-address">Municipal Chowk, Chapra, Bihar</p>
+        <a href="https://maps.app.goo.gl/aA5bDmrGQ4cJrWXk6" target="_blank" rel="noopener noreferrer" class="store-maps-btn" aria-label="View Kumar's Ice and Sweet Parlour on Google Maps">
+          View on Google Maps
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <!-- Branch 02 -->
+      <article class="store-card fade-in">
+        <div class="store-branch-num">Branch 02</div>
+        <div class="store-name">
+          <svg class="store-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span class="store-name-text">Kumar's Caf&eacute;</span>
+        </div>
+        <p class="store-address">Hatwa Market, Chapra, Bihar</p>
+        <a href="https://www.google.com/maps/place/Kumar's+cafe/@25.7781779,84.7420994,17z/data=!3m1!4b1!4m6!3m5!1s0x3992bb67c1791b8b:0xe2a816ad1534793f!8m2!3d25.7781779!4d84.7420994!16s%2Fg%2F11s0t290xf!18m1!1e1?entry=ttu" target="_blank" rel="noopener noreferrer" class="store-maps-btn" aria-label="View Kumar's Café on Google Maps">
+          View on Google Maps
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <!-- Branch 03 — NEW -->
+      <article class="store-card store-card--new fade-in">
+        <span class="store-new-tag">New</span>
+        <div class="store-branch-num">Branch 03</div>
+        <div class="store-name">
+          <svg class="store-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span class="store-name-text">Kumar's Ice and Sweet Parlour Branch 2</span>
+        </div>
+        <p class="store-address">TVS Agency Ke Samne, Sadha, Chapra, Bihar</p>
+        <a href="https://www.google.com/maps/@25.7903466,84.7510691,3a,75y,112.37h,97.43t/data=!3m7!1e1!3m5!1sVwqB8QcUUtC29dA5SkpmhQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-7.430000000000007%26panoid%3DVwqB8QcUUtC29dA5SkpmhQ%26yaw%3D112.37!7i16384!8i8192?entry=ttu" target="_blank" rel="noopener noreferrer" class="store-maps-btn" aria-label="View Kumar's Branch 2 on Google Maps">
+          View on Google Maps
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============================================
+       2.5 CATERING HIGHLIGHT
+       ============================================ -->
+  <section class="catering-highlight fade-in" id="catering" aria-label="Catering services">
+
+    <div class="floater floater--a" style="top:15%;right:6%;width:38px;height:38px" aria-hidden="true">
+      <svg viewBox="0 0 48 48" fill="none"><path d="M8 32h32" stroke="#C96B28" stroke-width="1.2"/><path d="M10 32c0-10 6-16 14-16s14 6 14 16" stroke="#C96B28" stroke-width="1.2"/><line x1="24" y1="16" x2="24" y2="12" stroke="#C96B28" stroke-width="1"/><circle cx="24" cy="11" r="1.5" fill="#C96B28" opacity="0.4"/></svg>
+    </div>
+
+    <div class="catering-badge fade-in">Catering</div>
+
+    <h2 class="catering-title fade-in">Kumar's Catering</h2>
+    <p class="catering-subtitle fade-in">Make your celebrations unforgettable.</p>
+    <p class="catering-desc fade-in">Weddings, parties, festivals &amp; events — we bring Kumar's signature taste to your doorstep. Visit any of our stores to place your catering order.</p>
+
+    <a href="#stores" class="catering-cta fade-in" aria-label="Visit a store to order catering">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Visit Any Shop to Order
+    </a>
+
+    <div class="catering-ornament" aria-hidden="true">
+      <span class="catering-ornament-dot"></span>
+    </div>
+  </section>
+
+  <!-- ============================================
+       3. SPECIALTIES
+       ============================================ -->
+  <section class="specialties section-padding" id="specialties" aria-labelledby="specialties-heading">
+
+    <div class="floater floater--b" style="top:10%;left:8%;width:38px;height:38px" aria-hidden="true">
+      <svg viewBox="0 0 48 48" fill="none"><ellipse cx="24" cy="26" rx="15" ry="12" stroke="#B8862D" stroke-width="1.2"/><circle cx="24" cy="23" r="1.5" fill="#B8862D" opacity="0.2"/></svg>
+    </div>
+    <div class="floater floater--d" style="bottom:8%;right:7%;width:38px;height:38px" aria-hidden="true">
+      <svg viewBox="0 0 48 48" fill="none"><path d="M14 24h16v8a5 5 0 0 1-5 5h-6a5 5 0 0 1-5-5V24z" stroke="#B8862D" stroke-width="1.2"/><path d="M30 26h2a3 3 0 0 1 0 6h-2" stroke="#B8862D" stroke-width="1"/></svg>
+    </div>
+
+    <div class="section-header fade-in">
+      <span class="section-label">What We Offer</span>
+      <h2 class="section-title" id="specialties-heading">A Little Something for Every Celebration</h2>
+    </div>
+
+    <div class="specialties-grid">
+      <!-- Sweets -->
+      <div class="specialty-item fade-in">
+        <div class="specialty-icon-wrapper">
+          <svg class="specialty-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="24" r="14"/><path d="M18 20c2-2 5-3 6-1s-1 5-3 7" opacity="0.5"/><path d="M26 18c1.5 1.5 1 4-1 5.5" opacity="0.5"/><circle cx="21" cy="22" r="1" fill="currentColor" opacity="0.3"/><circle cx="27" cy="25" r="1" fill="currentColor" opacity="0.3"/></svg>
+        </div>
+        <div class="specialty-name">Sweets</div>
+        <div class="specialty-desc">Traditional mithai</div>
+      </div>
+      <!-- Cakes -->
+      <div class="specialty-item fade-in">
+        <div class="specialty-icon-wrapper">
+          <svg class="specialty-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="12" y="28" width="24" height="10" rx="2"/><rect x="14" y="20" width="20" height="8" rx="2"/><path d="M14 20c2-2 4-1 6-2s3-3 4-3 2 2 4 3 4 0 6 2"/><line x1="24" y1="15" x2="24" y2="11"/><path d="M22 11c0-2 4-2 4 0" fill="currentColor" opacity="0.4"/></svg>
+        </div>
+        <div class="specialty-name">Cakes</div>
+        <div class="specialty-desc">Fresh &amp; custom</div>
+      </div>
+      <!-- Ice Cream -->
+      <div class="specialty-item fade-in">
+        <div class="specialty-icon-wrapper">
+          <svg class="specialty-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 24l5 16 5-16"/><circle cx="24" cy="20" r="6"/><circle cx="19" cy="18" r="4"/><circle cx="29" cy="18" r="4"/></svg>
+        </div>
+        <div class="specialty-name">Ice Cream</div>
+        <div class="specialty-desc">Cool &amp; creamy</div>
+      </div>
+      <!-- Cafe -->
+      <div class="specialty-item fade-in">
+        <div class="specialty-icon-wrapper">
+          <svg class="specialty-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22h20v10a6 6 0 0 1-6 6h-8a6 6 0 0 1-6-6V22z"/><path d="M32 24h2a4 4 0 0 1 0 8h-2"/><line x1="14" y1="38" x2="30" y2="38"/><path d="M18 18c0-2 1-3 1-4" opacity="0.5"/><path d="M22 17c0-2 1-3 1-4" opacity="0.5"/><path d="M26 18c0-2 1-3 1-4" opacity="0.5"/></svg>
+        </div>
+        <div class="specialty-name">Caf&eacute;</div>
+        <div class="specialty-desc">Snacks &amp; beverages</div>
+      </div>
+      <!-- Catering -->
+      <div class="specialty-item fade-in">
+        <div class="specialty-icon-wrapper">
+          <svg class="specialty-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 32h32"/><path d="M10 32c0-10 6-16 14-16s14 6 14 16"/><line x1="24" y1="16" x2="24" y2="12"/><circle cx="24" cy="11" r="1.5" fill="currentColor" opacity="0.4"/></svg>
+        </div>
+        <div class="specialty-name">Catering</div>
+        <div class="specialty-desc">Events &amp; celebrations</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       4. HERITAGE
+       ============================================ -->
+  <section class="heritage fade-in" id="heritage" aria-label="Brand heritage">
+
+    <div class="floater floater--c" style="top:20%;right:8%;width:34px;height:34px" aria-hidden="true">
+      <svg viewBox="0 0 48 48" fill="none"><path d="M20 26l4 14 4-14" stroke="#B8862D" stroke-width="1.2" stroke-linecap="round"/><circle cx="24" cy="20" r="7" stroke="#B8862D" stroke-width="1.2"/></svg>
+    </div>
+    <div class="floater floater--e" style="bottom:18%;left:6%;width:30px;height:30px" aria-hidden="true">
+      <svg viewBox="0 0 48 48" fill="none"><rect x="14" y="28" width="20" height="8" rx="1.5" stroke="#B8862D" stroke-width="1.2"/><rect x="17" y="22" width="14" height="6" rx="1.5" stroke="#B8862D" stroke-width="1"/><circle cx="24" cy="14" r="1.5" fill="#B8862D" opacity="0.35"/></svg>
+    </div>
+
+    <div class="ornament ornament-wide" aria-hidden="true"><span class="ornament-diamond"></span></div>
+    <div style="height:24px" aria-hidden="true"></div>
+
+    <h2 class="heritage-year">Since 1984</h2>
+    <p class="heritage-tagline">Chapra Ka Apna Brand.</p>
+    <p class="heritage-body">Four decades of serving Chapra with the finest sweets, freshest cakes, and warmest hospitality. Every celebration deserves a touch of Kumar's.</p>
+
+    <div style="height:24px" aria-hidden="true"></div>
+    <div class="ornament ornament-wide" aria-hidden="true"><span class="ornament-diamond"></span></div>
+  </section>
+
+  </main>
+
+  <!-- ============================================
+       5. FOOTER / CONTACT
+       ============================================ -->
+  <footer class="footer" id="contact" role="contentinfo">
+
+    <h2 class="footer-title fade-in">Contact Us</h2>
+    <div class="footer-brand fade-in">Kumar's</div>
+    <address class="footer-location fade-in" style="font-style:normal">Chapra, Bihar</address>
+
+    <div class="footer-divider" aria-hidden="true"></div>
+
+    <!-- Phone -->
+    <div class="footer-phone fade-in">
+      <div class="footer-phone-label">Call Us</div>
+      <div class="footer-phone-numbers">
+        <a href="tel:+917004013495" class="footer-phone-link" aria-label="Call Kumar's at 7004013495">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          7004013495
+        </a>
+        <a href="tel:+918210863455" class="footer-phone-link" aria-label="Call Kumar's at 8210863455">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          8210863455
+        </a>
+      </div>
+    </div>
+
+    <!-- Instagram -->
+    <div class="footer-instagram fade-in">
+      <div class="footer-instagram-label">Instagram</div>
+      <a href="https://instagram.com/kumars.chhapra" target="_blank" rel="noopener noreferrer" class="footer-instagram-link" aria-label="Follow Kumar's on Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+        @kumars.chhapra
+      </a>
+    </div>
+
+    <!-- Find Stores -->
+    <a href="#stores" class="footer-stores-link fade-in" aria-label="Scroll to store locations">
+      Find Our Stores
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+
+    <div class="footer-copyright">&copy; 2026 Kumar's. All rights reserved.</div>
+
+  </footer>
+
+  <!-- ============================================
+       JAVASCRIPT
+       ============================================ -->
+  <script>
+    (function() {
+      'use strict';
+      var els = document.querySelectorAll('.fade-in');
+      if (!('IntersectionObserver' in window)) {
+        for (var i = 0; i < els.length; i++) els[i].classList.add('visible');
+        return;
+      }
+      var observer = new IntersectionObserver(function(entries) {
+        for (var i = 0; i < entries.length; i++) {
+          if (entries[i].isIntersecting) {
+            entries[i].target.classList.add('visible');
+            observer.unobserve(entries[i].target);
+          }
+        }
+      }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+      for (var i = 0; i < els.length; i++) observer.observe(els[i]);
+    })();
+  </script>
+
+</body>
+</html>
