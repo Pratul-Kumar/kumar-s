@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Kumar's — Chapra Ka Apna Brand | Since 1984</title>
-  <meta name="description" content="Kumar's — heritage Indian sweets, cakes, ice cream, café & catering from Chapra, Bihar. Since 1984. Find our 3 stores and visit us today.">
-  <meta name="keywords" content="Kumar's Chapra, Indian sweets Chapra, cakes Chapra, ice cream Chapra, café Chapra, catering Bihar, mithai shop Chapra, Kumar's Ice Sweet Parlour">
+  <title>Kumar's â€” Chapra Ka Apna Brand | Since 1984</title>
+  <meta name="description" content="Kumar's â€” heritage Indian sweets, cakes, ice cream, cafÃ© & catering from Chapra, Bihar. Since 1984. Find our 3 stores and visit us today.">
+  <meta name="keywords" content="Kumar's Chapra, Indian sweets Chapra, cakes Chapra, ice cream Chapra, cafÃ© Chapra, catering Bihar, mithai shop Chapra, Kumar's Ice Sweet Parlour">
   <meta name="author" content="Kumar's">
   <meta name="theme-color" content="#C8922A">
   <meta name="robots" content="index, follow">
@@ -15,13 +15,13 @@
 
   <!-- Open Graph / Social -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Kumar's — Chapra Ka Apna Brand | Since 1984">
-  <meta property="og:description" content="Heritage Indian sweets, cakes, ice cream, café & catering from Chapra, Bihar. Since 1984.">
+  <meta property="og:title" content="Kumar's â€” Chapra Ka Apna Brand | Since 1984">
+  <meta property="og:description" content="Heritage Indian sweets, cakes, ice cream, cafÃ© & catering from Chapra, Bihar. Since 1984.">
   <meta property="og:image" content="assets/logo.png">
   <meta property="og:locale" content="en_IN">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Kumar's — Since 1984">
-  <meta name="twitter:description" content="Chapra Ka Apna Brand. Sweets, cakes, ice cream, café & catering.">
+  <meta name="twitter:title" content="Kumar's â€” Since 1984">
+  <meta name="twitter:description" content="Chapra Ka Apna Brand. Sweets, cakes, ice cream, cafÃ© & catering.">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +34,7 @@
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Kumar's",
-    "description": "Heritage Indian sweets, cakes, ice cream, café & catering from Chapra, Bihar since 1984.",
+    "description": "Heritage Indian sweets, cakes, ice cream, cafÃ© & catering from Chapra, Bihar since 1984.",
     "foundingDate": "1984",
     "address": {
       "@type": "PostalAddress",
@@ -51,960 +51,192 @@
   }
   </script>
 
-  <style>
-    /* ========================================
-       RESET & BASE
-       ======================================== */
-    *, *::before, *::after {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-      -webkit-text-size-adjust: 100%;
-      font-size: 16px; /* Base size */
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      html { scroll-behavior: auto; }
-      *, *::before, *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-      }
-    }
-
-    body {
-      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      background-color: #FEFCF6;
-      color: #3A2415;
-      line-height: 1.65;
-      overflow-x: hidden;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    a:focus-visible,
-    button:focus-visible {
-      outline: 2px solid #B8862D;
-      outline-offset: 3px;
-    }
-
-    /* Skip link */
-    .skip-link {
-      position: absolute;
-      top: -100%;
-      left: 50%;
-      transform: translateX(-50%);
-      background: #B8862D;
-      color: #fff;
-      padding: 10px 24px;
-      font-size: 0.95rem;
-      font-weight: 600;
-      z-index: 100;
-      transition: top 0.2s ease;
-    }
-    .skip-link:focus { top: 0; }
-
-    /* ========================================
-       DESIGN TOKENS — Refined palette
-       ======================================== */
-    :root {
-      --bg-primary: #FEFCF6;
-      --bg-cream: #FFF9EF;
-      --bg-warm: #F6EFE3;
-      --bg-rose: #FBF3EE;
-      --bg-catering: #FDF6EC;
-
-      --gold: #B8862D;
-      --gold-rich: #A07228;
-      --gold-light: #D4AA5C;
-      --gold-pale: #EDD9A8;
-      --gold-faint: rgba(184, 134, 45, 0.08);
-
-      --brown: #3A2415;
-      --brown-mid: #5C3D2E;
-      --brown-muted: #7D6555;
-      --brown-light: #9E8A7A;
-
-      --saffron: #C96B28;
-      --maroon: #5E1A24;
-      --maroon-deep: #461420;
-      --rose-warm: #E8C8B0;
-
-      --text-primary: #3A2415;
-      --text-secondary: #5C3D2E;
-      --text-muted: #7D6555;
-      --text-light: #9E8A7A;
-    }
-
-    /* ========================================
-       ORNAMENT
-       ======================================== */
-    .ornament {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 14px;
-      padding: 10px 0;
-    }
-
-    .ornament::before,
-    .ornament::after {
-      content: '';
-      width: 40px;
-      height: 1px;
-      background: var(--gold);
-      opacity: 0.4;
-    }
-
-    .ornament-diamond {
-      width: 6px;
-      height: 6px;
-      background: var(--gold);
-      transform: rotate(45deg);
-      flex-shrink: 0;
-      opacity: 0.6;
-    }
-
-    .ornament-wide::before,
-    .ornament-wide::after {
-      width: 56px;
-    }
-
-    /* ========================================
-       FADE-IN
-       ======================================== */
-    .fade-in {
-      opacity: 0;
-      transform: translateY(18px);
-      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-    }
-    .fade-in.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    /* ========================================
-       SECTION SHARED
-       ======================================== */
-    .section-padding {
-      padding: 72px 24px;
-    }
-
-    .section-header {
-      text-align: center;
-      margin-bottom: 48px;
-    }
-
-    .section-label {
-      font-family: 'DM Sans', sans-serif;
-      font-size: 0.75rem;
-      font-weight: 700;
-      letter-spacing: 0.28em;
-      text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 16px;
-      display: block;
-    }
-
-    .section-title {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-weight: 600;
-      font-size: 2rem;
-      color: var(--brown);
-      margin-bottom: 12px;
-      letter-spacing: 0.01em;
-      line-height: 1.2;
-    }
-
-    .section-subtitle {
-      font-size: 1.05rem;
-      color: var(--text-muted);
-      font-weight: 400;
-      font-style: italic;
-      line-height: 1.5;
-    }
-
-    /* ========================================
-       1. HERO
-       ======================================== */
-    .hero {
-      background: var(--bg-cream);
-      background-image: radial-gradient(ellipse at 50% 20%, #FFF9EF 0%, #FFF1D8 100%);
-      padding: 64px 24px 56px;
-      text-align: center;
-      min-height: 100svh;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 0;
-    }
-
-    .hero::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 3px;
-      background: linear-gradient(90deg, transparent 10%, var(--gold) 50%, transparent 90%);
-    }
-
-    .hero-since {
-      display: inline-block;
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 700;
-      font-size: 0.75rem;
-      letter-spacing: 0.35em;
-      text-transform: uppercase;
-      color: var(--gold);
-      border: 1px solid var(--gold-light);
-      padding: 8px 24px;
-      margin-bottom: 32px;
-    }
-
-    .hero-logo {
-      width: 170px;
-      height: auto;
-      margin: 0 auto 36px;
-      filter: drop-shadow(0 4px 12px rgba(58, 36, 21, 0.06));
-    }
-
-    .hero-brand {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-size: 3.2rem;
-      font-weight: 700;
-      color: var(--brown);
-      line-height: 1.1;
-      margin-bottom: 8px;
-      letter-spacing: -0.01em;
-    }
-
-    .hero-tagline-brand {
-      font-family: 'DM Sans', sans-serif;
-      font-size: 0.8rem;
-      letter-spacing: 0.32em;
-      text-transform: uppercase;
-      color: var(--text-muted);
-      font-weight: 600;
-      margin-bottom: 24px;
-    }
-
-    .hero-tagline {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-size: 1.25rem;
-      font-weight: 500;
-      font-style: italic;
-      color: var(--text-secondary);
-      line-height: 1.6;
-      max-width: 340px;
-      margin: 0 auto 40px;
-    }
-
-    .hero-cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      background: var(--gold);
-      color: #fff;
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 700;
-      font-size: 0.9rem;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      padding: 18px 40px;
-      border: none;
-      cursor: pointer;
-      transition: background 0.3s ease, transform 0.15s ease, box-shadow 0.3s ease;
-      min-height: 56px;
-      box-shadow: 0 4px 14px rgba(184, 134, 45, 0.25);
-      border-radius: 40px;
-    }
-
-    .hero-cta:hover {
-      background: var(--gold-rich);
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(184, 134, 45, 0.35);
-    }
-    .hero-cta:active { transform: translateY(0); box-shadow: 0 2px 8px rgba(184, 134, 45, 0.2); }
-    .hero-cta svg { width: 18px; height: 18px; flex-shrink: 0; }
-
-    .hero-bottom-border {
-      width: 100%;
-      height: 1px;
-      background: linear-gradient(90deg, transparent 15%, var(--gold-light) 50%, transparent 85%);
-      position: absolute;
-      bottom: 0; left: 0;
-      opacity: 0.5;
-    }
-
-    /* ========================================
-       2. OUR STORES
-       ======================================== */
-    .stores {
-      background: var(--bg-warm);
-    }
-
-    .stores::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 50%;
-      transform: translateX(-50%);
-      width: 48px;
-      height: 1px;
-      background: var(--gold);
-      opacity: 0.35;
-    }
-
-    .store-card {
-      background: var(--bg-cream);
-      border: 1px solid rgba(184, 134, 45, 0.18);
-      padding: 36px 32px 32px;
-      margin-bottom: 20px;
-      position: relative;
-      transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
-      border-radius: 24px;
-    }
-
-    /* Mithai Box Inner packaging border */
-    .store-card::before {
-      content: '';
-      position: absolute;
-      top: 6px; left: 6px; right: 6px; bottom: 6px;
-      border: 1px solid rgba(184, 134, 45, 0.12);
-      border-radius: 18px;
-      pointer-events: none;
-    }
-
-    .store-card:last-child { margin-bottom: 0; }
-
-    .store-card:hover {
-      border-color: rgba(184, 134, 45, 0.4);
-      box-shadow: 0 8px 24px rgba(184, 134, 45, 0.08);
-      transform: translateY(-2px);
-    }
-
-    /* NEW tag for Branch 3 */
-    .store-card--new {
-      border-color: var(--saffron);
-      border-width: 1.5px;
-    }
-    .store-card--new::before {
-      border-color: rgba(201, 107, 40, 0.2);
-    }
-    .store-card--new:hover {
-      border-color: var(--saffron);
-    }
-
-    .store-new-tag {
-      position: absolute;
-      top: 14px;
-      right: 14px;
-      background: var(--saffron);
-      color: #fff;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 0.65rem;
-      font-weight: 700;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      padding: 6px 14px;
-      line-height: 1;
-      border-radius: 30px;
-    }
-
-    .store-branch-num {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-size: 0.9rem;
-      letter-spacing: 0.18em;
-      color: var(--gold);
-      font-weight: 700;
-      margin-bottom: 16px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      text-transform: uppercase;
-    }
-
-    .store-branch-num::after {
-      content: '';
-      flex: 1;
-      height: 1px;
-      background: var(--gold-light);
-      opacity: 0.4;
-      max-width: 56px;
-    }
-
-    .store-pin {
-      width: 22px;
-      height: 22px;
-      color: var(--gold);
-      flex-shrink: 0;
-    }
-
-    .store-name {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-size: 1.45rem;
-      font-weight: 600;
-      color: var(--brown);
-      line-height: 1.3;
-      margin-bottom: 8px;
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-    }
-
-    .store-name-text { flex: 1; }
-
-    .store-address {
-      font-size: 1rem;
-      color: var(--text-muted);
-      font-weight: 400;
-      line-height: 1.5;
-      margin-bottom: 24px;
-      padding-left: 34px;
-    }
-
-    .store-maps-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: transparent;
-      color: var(--gold);
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 700;
-      font-size: 0.85rem;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      padding: 14px 24px;
-      border: 1.5px solid var(--gold);
-      cursor: pointer;
-      transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
-      min-height: 52px;
-      border-radius: 40px;
-    }
-
-    .store-maps-btn:hover {
-      background: var(--gold);
-      color: #fff;
-      box-shadow: 0 4px 14px rgba(184, 134, 45, 0.2);
-    }
-    .store-maps-btn svg { width: 16px; height: 16px; flex-shrink: 0; }
-
-    /* ========================================
-       2.5 CATERING HIGHLIGHT
-       ======================================== */
-    .catering-highlight {
-      background: var(--bg-catering);
-      background-image: linear-gradient(135deg, rgba(184,134,45,0.03) 0%, rgba(201,107,40,0.05) 100%);
-      padding: 64px 24px;
-      text-align: center;
-      border-bottom: 1px solid rgba(184, 134, 45, 0.12);
-    }
-
-    .catering-badge {
-      display: inline-block;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 0.75rem;
-      font-weight: 700;
-      letter-spacing: 0.25em;
-      text-transform: uppercase;
-      color: #fff;
-      background: var(--saffron);
-      padding: 6px 20px;
-      margin-bottom: 24px;
-      border-radius: 30px;
-    }
-
-    .catering-title {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-size: 2rem;
-      font-weight: 700;
-      color: var(--brown);
-      line-height: 1.25;
-      margin-bottom: 12px;
-    }
-
-    .catering-subtitle {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-size: 1.2rem;
-      font-weight: 500;
-      font-style: italic;
-      color: var(--text-secondary);
-      line-height: 1.5;
-      margin-bottom: 12px;
-    }
-
-    .catering-desc {
-      font-size: 1.05rem;
-      color: var(--text-muted);
-      line-height: 1.65;
-      max-width: 420px;
-      margin: 0 auto 32px;
-    }
-
-    .catering-cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      background: var(--saffron);
-      color: #fff;
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 700;
-      font-size: 0.85rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      padding: 16px 32px;
-      border: none;
-      cursor: pointer;
-      transition: background 0.3s ease, transform 0.15s ease, box-shadow 0.3s ease;
-      min-height: 52px;
-      box-shadow: 0 4px 14px rgba(201, 107, 40, 0.2);
-      border-radius: 40px;
-    }
-
-    .catering-cta:hover {
-      background: #B55E20;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(201, 107, 40, 0.3);
-    }
-    .catering-cta:active { transform: translateY(0); box-shadow: 0 2px 8px rgba(201, 107, 40, 0.15); }
-    .catering-cta svg { width: 16px; height: 16px; flex-shrink: 0; }
-
-    .catering-ornament {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      margin-top: 32px;
-    }
-    .catering-ornament::before,
-    .catering-ornament::after {
-      content: '';
-      width: 40px;
-      height: 1px;
-      background: var(--saffron);
-      opacity: 0.3;
-    }
-    .catering-ornament-dot {
-      width: 5px;
-      height: 5px;
-      background: var(--saffron);
-      border-radius: 50%;
-      opacity: 0.5;
-    }
-
-    /* ========================================
-       3. SPECIALTIES
-       ======================================== */
-    .specialties {
-      background: var(--bg-rose);
-    }
-
-    .specialties-grid {
-      display: flex;
-      flex-wrap: nowrap;
-      overflow-x: auto;
-      gap: 16px;
-      padding: 10px 0 32px 24px; /* Left padding matches container, bottom for shadow/scroll */
-      margin: 0 -24px; /* Break out of container to edge of screen */
-      scroll-snap-type: x mandatory;
-      -webkit-overflow-scrolling: touch;
-      scrollbar-width: none; /* Firefox */
-      -ms-overflow-style: none; /* IE/Edge */
-    }
-    .specialties-grid::-webkit-scrollbar {
-      display: none; /* Chrome/Safari */
-    }
-
-    .specialty-item {
-      flex: 0 0 75%; /* Show 75% of a card so the next one peeks in */
-      scroll-snap-align: center;
-      background: #FFFFFF;
-      border-radius: 80px 80px 24px 24px;
-      padding: 44px 24px 36px;
-      text-align: center;
-      border: 1px solid rgba(184, 134, 45, 0.12);
-      box-shadow: 0 4px 16px rgba(58, 36, 21, 0.04);
-      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-      position: relative;
-      z-index: 2; /* keep above section floaters */
-    }
-
-    .specialty-item::after {
-      content: '';
-      position: absolute;
-      top: 6px; left: 6px; right: 6px; bottom: 6px;
-      border: 1px solid rgba(184, 134, 45, 0.12);
-      border-radius: 74px 74px 18px 18px;
-      pointer-events: none;
-    }
-    
-    /* Ensure the last item has right margin so it doesn't stick to the edge */
-    .specialty-item:last-child {
-      margin-right: 24px;
-    }
-
-    .specialty-item:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 12px 32px rgba(184, 134, 45, 0.12);
-      border-color: rgba(184, 134, 45, 0.4);
-    }
-
-    
-
-    .specialty-item:hover 
-
-    
-
-    .specialty-name {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-size: 1.45rem;
-      font-weight: 700;
-      color: var(--brown);
-      letter-spacing: 0.02em;
-      margin-bottom: 6px;
-    }
-
-    .specialty-desc {
-      font-size: 1rem;
-      color: var(--text-muted);
-      font-weight: 400;
-      font-style: italic;
-      line-height: 1.5;
-    }
-
-    /* ========================================
-       4. HERITAGE
-       ======================================== */
-    .heritage {
-      background: var(--bg-cream);
-      padding: 72px 24px;
-      text-align: center;
-      border-top: 1px solid rgba(184, 134, 45, 0.12);
-    }
-
-    .heritage-year {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-size: 2.6rem;
-      font-weight: 700;
-      color: var(--gold);
-      margin-bottom: 10px;
-      letter-spacing: 0.02em;
-    }
-
-    .heritage-tagline {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-size: 1.4rem;
-      font-weight: 600;
-      font-style: italic;
-      color: var(--brown);
-      line-height: 1.45;
-    }
-
-    .heritage-body {
-      font-size: 1.05rem;
-      color: var(--text-muted);
-      line-height: 1.75;
-      max-width: 360px;
-      margin: 16px auto 0;
-    }
-
-    /* ========================================
-       5. FOOTER
-       ======================================== */
-    .footer {
-      background: var(--maroon);
-      color: var(--gold-pale);
-      padding: 56px 24px 40px;
-      text-align: center;
-      position: relative;
-    }
-
-    .footer::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 2px;
-      background: linear-gradient(90deg, transparent 10%, var(--gold) 50%, transparent 90%);
-    }
-
-    .footer-title {
-      font-family: 'DM Sans', sans-serif;
-      font-size: 0.75rem;
-      font-weight: 700;
-      letter-spacing: 0.3em;
-      text-transform: uppercase;
-      color: var(--gold-light);
-      margin-bottom: 28px;
-    }
-
-    .footer-brand {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-size: 2.2rem;
-      font-weight: 700;
-      color: #FFF9EF;
-      margin-bottom: 8px;
-    }
-
-    .footer-location {
-      font-size: 1rem;
-      color: var(--gold-pale);
-      font-weight: 400;
-      margin-bottom: 32px;
-      opacity: 0.85;
-    }
-
-    .footer-divider {
-      width: 48px;
-      height: 1px;
-      background: var(--gold);
-      opacity: 0.35;
-      margin: 0 auto 32px;
-    }
-
-    .footer-phone { margin-bottom: 32px; }
-
-    .footer-phone-label,
-    .footer-instagram-label {
-      font-size: 0.75rem;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      color: var(--gold-light);
-      font-weight: 600;
-      margin-bottom: 12px;
-      opacity: 0.7;
-    }
-
-    .footer-phone-numbers {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .footer-phone-link,
-    .footer-instagram-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      color: #FFF9EF;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 1.05rem;
-      font-weight: 600;
-      padding: 14px 28px;
-      border: 1px solid rgba(212, 170, 92, 0.25);
-      transition: border-color 0.3s ease, background 0.3s ease;
-      border-radius: 40px;
-    }
-
-    .footer-phone-link:hover,
-    .footer-instagram-link:hover {
-      border-color: var(--gold);
-      background: rgba(212, 170, 92, 0.1);
-    }
-
-    .footer-phone-link svg {
-      width: 18px; height: 18px;
-      color: var(--gold-light);
-      flex-shrink: 0;
-    }
-
-    .footer-phone-link { letter-spacing: 0.06em; }
-    .footer-instagram { margin-bottom: 36px; }
-    .footer-instagram-label { margin-bottom: 12px; }
-    .footer-instagram-link svg {
-      width: 20px; height: 20px;
-      color: var(--gold-light);
-    }
-
-    .footer-stores-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      color: var(--gold);
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 700;
-      font-size: 0.85rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      padding: 16px 32px;
-      border: 1.5px solid var(--gold);
-      transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
-      margin-bottom: 48px;
-      min-height: 52px;
-      border-radius: 40px;
-    }
-
-    .footer-stores-link:hover {
-      background: var(--gold);
-      color: var(--maroon);
-      box-shadow: 0 4px 16px rgba(184, 134, 45, 0.2);
-    }
-
-    .footer-copyright {
-      font-size: 0.85rem;
-      color: var(--gold-pale);
-      opacity: 0.5;
-      font-weight: 400;
-      letter-spacing: 0.04em;
-    }
-
-    /* ========================================
-       RESPONSIVE — Tablet (768px+)
-       ======================================== */
-    @media (min-width: 768px) {
-      .section-padding { padding: 96px 48px; }
-      .hero { padding: 96px 48px 80px; }
-      .hero-logo { width: 190px; }
-      .hero-brand { font-size: 4.2rem; }
-      .hero-tagline { font-size: 1.4rem; max-width: 480px; }
-      .section-title { font-size: 2.4rem; }
-      .section-subtitle { font-size: 1.2rem; }
-
-      .store-card {
-        padding: 40px 36px;
-        max-width: 600px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 24px;
-      }
-
-      .specialties-grid { 
-        flex-wrap: wrap; 
-        justify-content: center; 
-        overflow-x: visible; 
-        padding-bottom: 0; 
-        margin: 0 auto; 
-        max-width: 720px; 
-        gap: 24px; 
-      }
-      .specialty-item { 
-        flex: 0 0 auto; 
-        width: calc(50% - 12px); 
-      }
-      .specialty-item:last-child {
-        margin-right: 0;
-      }
-
-      .heritage { padding: 96px 48px; }
-      .heritage-year { font-size: 3.2rem; }
-      .heritage-body { font-size: 1.15rem; max-width: 480px; }
-      
-      .catering-highlight { padding: 80px 48px; }
-      .catering-title { font-size: 2.4rem; }
-      .catering-desc { font-size: 1.2rem; max-width: 520px; }
-
-      .footer { padding: 72px 48px 48px; }
-    }
-
-    /* ========================================
-       RESPONSIVE — Desktop (1024px+)
-       ======================================== */
-    @media (min-width: 1024px) {
-      .section-padding { padding: 112px 64px; }
-      .hero { padding: 112px 64px 96px; }
-      .hero-logo { width: 200px; }
-      .hero-brand { font-size: 4.8rem; }
-
-      .stores-grid-wrapper {
-        display: flex;
-        gap: 24px;
-        max-width: 1100px;
-        margin: 0 auto;
-      }
-      .store-card { flex: 1; margin-bottom: 0; }
-
-      .specialties-grid {
-        max-width: 1000px;
-      }
-      .specialty-item { width: calc(33.333% - 16px); }
-
-      .heritage-tagline { font-size: 1.8rem; }
-      .catering-highlight { padding: 96px 64px; }
-      .catering-title { font-size: 2.8rem; }
-      .footer { padding: 80px 64px 56px; }
-    }
-
-    /* ========================================
-       PRINT STYLES
-       ======================================== */
-    @media print {
-      .floater, .hero-bottom-border, .ornament, .skip-link,
-      .catering-ornament, .store-new-tag, .catering-badge { display: none; }
-      .hero { min-height: auto; padding: 24px; }
-      .specialty-item { break-inside: avoid; border: 1px solid #ccc; box-shadow: none; }
-      .footer { background: #fff; color: #3A2415; border-top: 1px solid #ccc; }
-      .footer-phone-link, .footer-instagram-link, .footer-stores-link,
-      .store-maps-btn { border-color: #3A2415; color: #3A2415; }
-      body { font-size: 12pt; background: #fff; }
-    }
-  </style>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+
+  <div class="site-topbar" aria-label="Festive service announcements">
+    <span>Diwali special fresh pure desi ghee batches rolling out daily</span>
+    <span>Pre-booking open for bulk &amp; corporate gifting</span>
+    <span>Chapra helpline: +91 7004013495</span>
+  </div>
+
+  <nav class="site-nav" aria-label="Primary navigation">
+    <a class="site-nav-brand" href="#hero" aria-label="Kumar's home">
+      <img src="assets/logo.png" alt="" width="40" height="40">
+      <span>Kumar's</span>
+    </a>
+    <div class="site-nav-links">
+      <a href="#hero">Home</a>
+      <a href="#diwali-gifting">Diwali Sweets</a>
+      <a href="#diwali-gifting">Festive Hampers</a>
+      <a href="#heritage">Heritage</a>
+      <a href="#stores">Our Stores</a>
+      <a class="site-nav-cta" href="#stores">Order for Diwali</a>
+    </div>
+  </nav>
 
   <a href="#stores" class="skip-link">Skip to Store Locations</a>
 
   <!-- ============================================
        1. HERO
        ============================================ -->
-  <header class="hero" id="hero" role="banner">
+  <header class="festival-hero" id="hero" role="banner">
+    <div class="festival-hero-content">
+      <div class="festival-badge">✦ Shubh Diwali &bull; Happy Diwali ✦</div>
+      <div class="festival-since">Since 1984</div>
 
-    
-    
-    
-    
+      <div class="festival-logo-wrap">
+        <img src="assets/logo.png" alt="Kumar's - Best Taste and Quality in Chapra" width="142" height="142" fetchpriority="high" decoding="async">
+      </div>
 
-    <div class="hero-since fade-in">SINCE 1984</div>
+      <h1>Har Tyohar Ki Mithas,<br><em>Kumar's</em> Ke Saath</h1>
+      <p class="festival-tagline">Sweetness, celebrations &amp; memories since 1984.</p>
 
-    <img src="assets/logo.png" alt="Kumar's — Best Taste and Quality in Chapra" class="hero-logo fade-in" width="170" height="165" fetchpriority="high" decoding="async">
+      <div class="festival-diyas" aria-hidden="true">
+        <span class="festival-diya"></span>
+        <span class="festival-diya festival-diya-center"></span>
+        <span class="festival-diya"></span>
+      </div>
 
-    <h1 class="hero-brand fade-in">Kumar's</h1>
-    <p class="hero-tagline-brand fade-in">Chapra Ka Apna Brand</p>
+      <div class="festival-actions">
+        <a href="#stores" class="festival-action festival-action-primary">Find a Kumar's Near You &rarr;</a>
+        <a href="#diwali-gifting" class="festival-action festival-action-secondary">Explore Diwali Gift Hampers</a>
+      </div>
 
-    <div class="ornament fade-in" aria-hidden="true"><span class="ornament-diamond"></span></div>
-
-    <p class="hero-tagline fade-in">Sweetness, celebrations &amp; memories since 1984.</p>
-
-    <a href="#stores" class="hero-cta fade-in" aria-label="Scroll to store locations">
-      Find a Kumar's Near You
-    </a>
-
-    <div class="hero-bottom-border" aria-hidden="true"></div>
+      <div class="festival-specialties" aria-label="Kumar's specialties">
+        <span>✦ Pure Kaju Katli</span>
+        <span>✦ Desi Ghee Motichoor Ladoo</span>
+        <span>✦ Shahi Gulab Jamun</span>
+        <span>✦ Handcrafted Dry Fruit Bites</span>
+      </div>
+    </div>
   </header>
 
   <main>
+  <section class="trust-strip" aria-label="Kumar's highlights">
+    <article class="trust-item">
+      <span class="trust-icon" aria-hidden="true">▰</span>
+      <div><h2 class="trust-title">100% Desi Ghee</h2><p class="trust-copy">Crafted with certified pure cow &amp; buffalo ghee</p></div>
+    </article>
+    <article class="trust-item">
+      <span class="trust-icon" aria-hidden="true">✦</span>
+      <div><h2 class="trust-title">Fresh Daily Batches</h2><p class="trust-copy">Handcrafted continuously to ensure festive freshness</p></div>
+    </article>
+    <article class="trust-item">
+      <span class="trust-icon" aria-hidden="true">▥</span>
+      <div><h2 class="trust-title">Chapra's Pride Since 1984</h2><p class="trust-copy">40 years of unwavering trust, taste &amp; tradition</p></div>
+    </article>
+    <article class="trust-item">
+      <span class="trust-icon" aria-hidden="true">▣</span>
+      <div><h2 class="trust-title">Premium Gift Hampers</h2><p class="trust-copy">Custom corporate &amp; family festive packaging</p></div>
+    </article>
+  </section>
+
+  <!-- ============================================
+       1.5 FESTIVE ANNOUNCEMENT
+       ============================================ -->
+  <aside class="festive-announcement" aria-label="Diwali announcement">
+    <span class="festive-announcement-label">Diwali &amp; Chhath Puja</span>
+    <span class="festive-announcement-text">SUDH Ghee se nirmit mithaiya &ndash; Celebrate Diwali with Kumar</span>
+  </aside>
+
+  <!-- ============================================
+       1.6 DIWALI GIFTING COLLECTION
+       ============================================ -->
+  <section class="diwali-gifting" id="diwali-gifting" aria-labelledby="diwali-gifting-heading">
+    <div class="section-header fade-in">
+      <span class="section-label">Festive Collection &bull; Limited Diwali Edition</span>
+      <h2 class="section-title" id="diwali-gifting-heading">Diwali Gifting Collection</h2>
+      <p class="section-subtitle">“Khushiyon ka tohfa, Kumar's ke saath.”</p>
+      <p class="section-microcopy">Kumar's Sweets &bull; Chapra Ka Apna Brand Since 1984</p>
+    </div>
+
+    <div class="gifting-grid">
+      <article class="gifting-card fade-in">
+        <div>
+          <span class="gifting-card-icon" aria-hidden="true">✦</span>
+          <div class="gifting-card-meta">01 &bull; Signature <span>Best Seller</span></div>
+          <h3 class="gifting-card-title">Special Hampers</h3>
+          <p class="gifting-card-copy">Grand royal curation featuring Pure Desi Ghee Kaju Barfi, premium dry fruits, brass diyas and silver coin embellishments.</p>
+          <ul class="gifting-card-list">
+            <li>Shahi Motichoor &amp; Kesar Dry Fruit</li>
+            <li>Luxury Keepsake Wooden Basket</li>
+          </ul>
+        </div>
+        <div class="gifting-card-footer">
+          <span class="gifting-card-price"><small>Starting from</small>&#8377;1,499</span>
+          <a class="gifting-card-action" href="#stores">View Hamper</a>
+        </div>
+      </article>
+      <article class="gifting-card fade-in">
+        <div>
+          <span class="gifting-card-icon" aria-hidden="true">✧</span>
+          <div class="gifting-card-meta">02 &bull; Bespoke <span>Corporate Choice</span></div>
+          <h3 class="gifting-card-title">Customizable Sweet Boxes</h3>
+          <p class="gifting-card-copy">Choose your family or company favourites in 500g, 1kg and 2kg embossed golden gift boxes with personalised greetings.</p>
+          <ul class="gifting-card-list">
+            <li>Custom sweets assortment of choice</li>
+            <li>Corporate logo sleeves available</li>
+          </ul>
+        </div>
+        <div class="gifting-card-footer">
+          <span class="gifting-card-price"><small>Available in</small>500g &bull; 1kg &bull; 2kg</span>
+          <a class="gifting-card-action" href="#stores">Customize Box</a>
+        </div>
+      </article>
+      <article class="gifting-card fade-in">
+        <div>
+          <span class="gifting-card-icon" aria-hidden="true">♢</span>
+          <div class="gifting-card-meta">03 &bull; Tradition <span>Chapra Iconic</span></div>
+          <h3 class="gifting-card-title">Diwali Special Mithai Boxes</h3>
+          <p class="gifting-card-copy">Handmade with traditional recipes from 1984: Pure Kaju Katli, Motichoor Ladoo, Shahi Gulab Jamun and Kesar Peda.</p>
+          <ul class="gifting-card-list">
+            <li>100% Desi Ghee preparation</li>
+            <li>Fresh silver vark certified</li>
+          </ul>
+        </div>
+        <div class="gifting-card-footer">
+          <span class="gifting-card-price"><small>Starting from</small>&#8377;650</span>
+          <a class="gifting-card-action" href="#stores">Select Sweets</a>
+        </div>
+      </article>
+      <article class="gifting-card fade-in">
+        <div>
+          <span class="gifting-card-icon" aria-hidden="true">◇</span>
+          <div class="gifting-card-meta">04 &bull; Premium <span>Elegant Gifting</span></div>
+          <h3 class="gifting-card-title">Premium Dry Fruit Boxes</h3>
+          <p class="gifting-card-copy">Curated roasted dry fruits, saffron and festive treats in elegant boxes made for family celebrations and corporate gifting.</p>
+          <ul class="gifting-card-list">
+            <li>Handpicked premium dry fruits</li>
+            <li>Festive ribbon and greeting card</li>
+          </ul>
+        </div>
+        <div class="gifting-card-footer">
+          <span class="gifting-card-price"><small>Starting from</small>&#8377;999</span>
+          <a class="gifting-card-action" href="#stores">View Box</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="gifting-offer fade-in">
+      <span class="gifting-offer-label">Diwali Shopping Offer</span>
+      <p class="gifting-offer-text">Shop &#8377;1,000 worth of mithai and receive a special coupon redeemable at any Kumar's shop.</p>
+    </div>
+  </section>
+
   <!-- ============================================
        2. OUR STORES
        ============================================ -->
   <section class="stores section-padding" id="stores" aria-labelledby="stores-heading">
-
-    
-    
-
     <div class="section-header fade-in">
-      <span class="section-label">Locations</span>
-      <h2 class="section-title" id="stores-heading">Our Stores</h2>
-      <p class="section-subtitle">Find your nearest Kumar's.</p>
+      <span class="section-label">✦ Locations &bull; Chapra City Outlets</span>
+      <h2 class="section-title" id="stores-heading">Visit Our Chapra Stores<br><em>This Deepawali</em></h2>
+      <p class="section-subtitle">Pick up fresh handcrafted Desi Ghee mithai, ornate gift hampers, hot festive savouries &amp; signature bakes directly from our heritage counters.</p>
     </div>
 
     <div class="stores-grid-wrapper">
-
-      <!-- Branch 01 -->
       <article class="store-card fade-in">
         <div class="store-branch-num">Branch 01</div>
         <div class="store-name">
@@ -1012,12 +244,18 @@
           <span class="store-name-text">Kumar's Ice &amp; Sweet Parlour</span>
         </div>
         <p class="store-address">Municipal Chowk, Chapra, Bihar</p>
-        <a href="https://maps.app.goo.gl/aA5bDmrGQ4cJrWXk6" target="_blank" rel="noopener noreferrer" class="store-maps-btn" aria-label="View Kumar's Ice and Sweet Parlour on Google Maps">
-          View on Google Maps
-        </a>
+        <ul class="store-highlights">
+          <li><strong>Flagship Heritage Store</strong> (Est. 1984)</li>
+          <li>Pure Kaju Katli, Motichoor &amp; Dry Fruit Boxes</li>
+          <li>Express Diwali Corporate Pre-Order Pickup</li>
+        </ul>
+        <div class="store-hours"><span class="store-hours-icon">◷</span><span><strong>Open Today:</strong> 8:00 AM - 10:30 PM (Special Rush Hours)</span></div>
+        <div class="store-actions">
+          <a href="https://maps.app.goo.gl/aA5bDmrGQ4cJrWXk6" target="_blank" rel="noopener noreferrer" class="store-maps-btn" aria-label="View Kumar's Ice and Sweet Parlour on Google Maps">View on Google Maps &rarr;</a>
+          <div class="store-contact-row"><a href="tel:+919431000001">☎ Direct Counter: +91 9431X XXXXX</a><span class="store-area">Municipal Ch.</span></div>
+        </div>
       </article>
 
-      <!-- Branch 02 -->
       <article class="store-card fade-in">
         <div class="store-branch-num">Branch 02</div>
         <div class="store-name">
@@ -1025,25 +263,45 @@
           <span class="store-name-text">Kumar's Caf&eacute;</span>
         </div>
         <p class="store-address">Hatwa Market, Chapra, Bihar</p>
-        <a href="https://www.google.com/maps/place/Kumar's+cafe/@25.7781779,84.7420994,17z/data=!3m1!4b1!4m6!3m5!1s0x3992bb67c1791b8b:0xe2a816ad1534793f!8m2!3d25.7781779!4d84.7420994!16s%2Fg%2F11s0t290xf!18m1!1e1?entry=ttu" target="_blank" rel="noopener noreferrer" class="store-maps-btn" aria-label="View Kumar's Café on Google Maps">
-          View on Google Maps
-        </a>
+        <ul class="store-highlights">
+          <li><strong>Festive Dine-in &amp; Family Lounge</strong></li>
+          <li>Live Chaat Counter, Shakes &amp; Fresh Pastries</li>
+          <li>Gourmet Diwali Cookie &amp; Bakery Hampers</li>
+        </ul>
+        <div class="store-hours"><span class="store-hours-icon">◷</span><span><strong>Open Today:</strong> 9:00 AM - 10:00 PM (Dine-in Open)</span></div>
+        <div class="store-actions">
+          <a href="https://www.google.com/maps/place/Kumar's+cafe/@25.7781779,84.7420994,17z/data=!3m1!4b1!4m6!3m5!1s0x3992bb67c1791b8b:0xe2a816ad1534793f!8m2!3d25.7781779!4d84.7420994!16s%2Fg%2F11s0t290xf!18m1!1e1?entry=ttu" target="_blank" rel="noopener noreferrer" class="store-maps-btn" aria-label="View Kumar's Café on Google Maps">View on Google Maps &rarr;</a>
+          <div class="store-contact-row"><a href="tel:+919431000002">☎ Table &amp; Orders: +91 9431X XXXXX</a><span class="store-area">Hatwa Mkt</span></div>
+        </div>
       </article>
 
-      <!-- Branch 03 — NEW -->
       <article class="store-card store-card--new fade-in">
-        <span class="store-new-tag">New</span>
+        <span class="store-new-tag">✦ New Outlet</span>
         <div class="store-branch-num">Branch 03</div>
         <div class="store-name">
           <svg class="store-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
           <span class="store-name-text">Kumar's Ice and Sweet Parlour Branch 2</span>
         </div>
         <p class="store-address">TVS Agency Ke Samne, Sadha, Chapra, Bihar</p>
-        <a href="https://www.google.com/maps/@25.7903466,84.7510691,3a,75y,112.37h,97.43t/data=!3m7!1e1!3m5!1sVwqB8QcUUtC29dA5SkpmhQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-7.430000000000007%26panoid%3DVwqB8QcUUtC29dA5SkpmhQ%26yaw%3D112.37!7i16384!8i8192?entry=ttu" target="_blank" rel="noopener noreferrer" class="store-maps-btn" aria-label="View Kumar's Branch 2 on Google Maps">
-          View on Google Maps
-        </a>
+        <ul class="store-highlights">
+          <li><strong>Spacious Car Parking</strong> &amp; Quick Drive-Through</li>
+          <li>Exclusive Diwali Corporate Hamper Lounge</li>
+          <li>Dedicated Sugar-Free &amp; Dry Fruit Section</li>
+        </ul>
+        <div class="store-hours"><span class="store-hours-icon">◷</span><span><strong>Open Today:</strong> 8:30 AM - 10:00 PM (Ample Parking)</span></div>
+        <div class="store-actions">
+          <a href="https://www.google.com/maps/@25.7903466,84.7510691,3a,75y,112.37h,97.43t/data=!3m7!1e1!3m5!1sVwqB8QcUUtC29dA5SkpmhQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-7.430000000000007%26panoid%3DVwqB8QcUUtC29dA5SkpmhQ%26yaw%3D112.37!7i16384!8i8192?entry=ttu" target="_blank" rel="noopener noreferrer" class="store-maps-btn" aria-label="View Kumar's Branch 2 on Google Maps">View on Google Maps &rarr;</a>
+          <div class="store-contact-row"><a href="tel:+919431000003">☎ Corporate Desk: +91 9431X XXXXX</a><span class="store-area">Sadha Bypass</span></div>
+        </div>
       </article>
+    </div>
 
+    <div class="stores-assistance">
+      <div>
+        <h3 class="stores-assistance-title">Diwali Pre-Orders &amp; Bulk Corporate Gifting</h3>
+        <p class="stores-assistance-copy">Chapra Town same-day express doorstep delivery available. Call Helpline: <a href="tel:+919431000000">+91 9431X XXXXX</a></p>
+      </div>
+      <a class="stores-assistance-action" href="#diwali-gifting">Book Diwali Hamper &rarr;</a>
     </div>
   </section>
 
@@ -1051,21 +309,41 @@
        2.5 CATERING HIGHLIGHT
        ============================================ -->
   <section class="catering-highlight fade-in" id="catering" aria-label="Catering services">
-
-    
-
-    <div class="catering-badge fade-in">Catering</div>
-
-    <h2 class="catering-title fade-in">Kumar's Catering</h2>
-    <p class="catering-subtitle fade-in">Make your celebrations unforgettable.</p>
-    <p class="catering-desc fade-in">Weddings, parties, festivals &amp; events — we bring Kumar's signature taste to your doorstep. Visit any of our stores to place your catering order.</p>
-
-    <a href="#stores" class="catering-cta fade-in" aria-label="Visit a store to order catering">
-      Visit Any Shop to Order
-    </a>
-
-    <div class="catering-ornament" aria-hidden="true">
+    <div class="catering-badge fade-in">✦ Festive Catering &amp; Bulk Celebrations</div>
+    <h2 class="catering-title fade-in">Kumar's <span class="gold-gradient-text">Catering</span></h2>
+    <div class="catering-ornament fade-in" aria-hidden="true">
       <span class="catering-ornament-dot"></span>
+      <span>Make your celebrations unforgettable</span>
+      <span class="catering-ornament-dot"></span>
+    </div>
+    <p class="catering-desc fade-in">Weddings, parties, festivals &amp; events &mdash; we bring Kumar's signature taste to your doorstep. Visit any of our stores to place your custom catering order.</p>
+
+    <div class="festival-actions fade-in">
+      <a href="#stores" class="catering-cta" aria-label="Visit a store to order catering">▣ &nbsp; Visit Any Shop to Order &nbsp; &rarr;</a>
+      <a href="tel:+917004013495" class="catering-secondary-cta" aria-label="Enquire for catering">☎ &nbsp; Enquire for Catering</a>
+    </div>
+
+    <div class="catering-features">
+      <article class="catering-feature fade-in">
+        <div class="catering-feature-icon" aria-hidden="true">♨</div>
+        <h3>Live Sweet &amp; Chaat Counters</h3>
+        <p>Interactive live preparation with hot jalebis, freshly prepared chaat and steaming rabdi for grand gatherings.</p>
+      </article>
+      <article class="catering-feature fade-in">
+        <div class="catering-feature-icon" aria-hidden="true">✦</div>
+        <h3>Pure Desi Ghee Preparation</h3>
+        <p>Authentic taste using premium ingredients and time-honoured recipes Chapra has trusted since 1984.</p>
+      </article>
+      <article class="catering-feature fade-in">
+        <div class="catering-feature-icon" aria-hidden="true">▤</div>
+        <h3>Custom Festive Menus</h3>
+        <p>Tailored spreads crafted for weddings, Diwali gatherings, anniversaries, corporate gifts and festive poojas.</p>
+      </article>
+      <article class="catering-feature fade-in">
+        <div class="catering-feature-icon" aria-hidden="true">♧</div>
+        <h3>On-site Hospitality</h3>
+        <p>Trained banquet staff, elegant presentations and meticulous hygiene for a worry-free celebration.</p>
+      </article>
     </div>
   </section>
 
@@ -1073,46 +351,51 @@
        3. SPECIALTIES
        ============================================ -->
   <section class="specialties section-padding" id="specialties" aria-labelledby="specialties-heading">
-
-    
-    
-
     <div class="section-header fade-in">
-      <span class="section-label">What We Offer</span>
+      <span class="section-label">What We Offer &bull; Diwali Special</span>
       <h2 class="section-title" id="specialties-heading">A Little Something for Every Celebration</h2>
+      <p class="section-subtitle">Handcrafted delicacies, heritage recipes, and festive treats made fresh daily with <strong>100% pure desi ghee</strong> for Chapra's most cherished gatherings.</p>
     </div>
 
     <div class="specialties-grid">
-      <!-- Sweets -->
       <div class="specialty-item fade-in">
-        
+        <span class="specialty-meta">01 &bull; Heritage</span>
         <div class="specialty-name">Sweets</div>
         <div class="specialty-desc">Traditional mithai</div>
+        <p class="specialty-copy">Pure Desi Ghee Kaju Katli, Motichoor Ladoo, Shahi Gulab Jamun, Kesar Peda and festive hampers.</p>
+        <div class="specialty-action"><span>Explore Mithai &rarr;</span><span>Diwali Hamper Packs</span></div>
       </div>
-      <!-- Cakes -->
       <div class="specialty-item fade-in">
-        
+        <span class="specialty-meta">02 &bull; Celebration</span>
         <div class="specialty-name">Cakes</div>
         <div class="specialty-desc">Fresh &amp; custom</div>
+        <p class="specialty-copy">Designer festive fusion cakes, freshly baked eggless gateaux, anniversary and personalized party bakes.</p>
+        <div class="specialty-action"><span>View Cake Menu &rarr;</span><span>100% Eggless Option</span></div>
       </div>
-      <!-- Ice Cream -->
       <div class="specialty-item fade-in">
-        
+        <span class="specialty-meta">03 &bull; Artisanal</span>
         <div class="specialty-name">Ice Cream</div>
         <div class="specialty-desc">Cool &amp; creamy</div>
+        <p class="specialty-copy">Real fruit scoops, festive royal faloodas, dry fruit malai kulfis and handcrafted celebration sundaes.</p>
+        <div class="specialty-action"><span>Discover Flavours &rarr;</span><span>Royal Faloodas</span></div>
       </div>
-      <!-- Cafe -->
       <div class="specialty-item fade-in">
-        
+        <span class="specialty-meta">04 &bull; Hot Bites</span>
         <div class="specialty-name">Caf&eacute;</div>
         <div class="specialty-desc">Snacks &amp; beverages</div>
+        <p class="specialty-copy">Hot paneer samosas, khasta kachoris, signature grilled rolls and kulhad ginger masala chai.</p>
+        <div class="specialty-action"><span>Visit Café Counter &rarr;</span><span>Fresh Every 2 Hours</span></div>
       </div>
-      <!-- Catering -->
       <div class="specialty-item fade-in">
-        
+        <span class="specialty-meta">05 &bull; Grand Events</span>
         <div class="specialty-name">Catering</div>
         <div class="specialty-desc">Events &amp; celebrations</div>
+        <p class="specialty-copy">Bespoke pooja buffets, royal wedding feasts, corporate gifting and live sweet counters.</p>
+        <div class="specialty-action"><span>Book Catering Service &rarr;</span><span>Customized Menus</span></div>
       </div>
+    </div>
+    <div class="specialties-banner">
+      <div class="specialty-action"><span>✦ Fresh batches replenished daily across all 3 outlets</span><span>Order festive treats today &rarr;</span></div>
     </div>
   </section>
 
@@ -1120,19 +403,39 @@
        4. HERITAGE
        ============================================ -->
   <section class="heritage fade-in" id="heritage" aria-label="Brand heritage">
-
-    
-    
-
+    <div class="heritage-badge">SINCE 1984</div>
+    <div class="heritage-emblem">
+      <div class="heritage-emblem-inner">
+        <span class="heritage-emblem-brand">KUMAR'S</span>
+        <span class="heritage-emblem-place">Chapra</span>
+      </div>
+      <span class="heritage-flame" aria-hidden="true">♨</span>
+    </div>
+    <h2 class="section-title">Chapra Ka Apna Brand</h2>
     <div class="ornament ornament-wide" aria-hidden="true"><span class="ornament-diamond"></span></div>
-    <div style="height:24px" aria-hidden="true"></div>
+    <p class="heritage-quote">“Four decades of serving Chapra with the finest sweets, freshest cakes, and warmest hospitality. Every celebration deserves a touch of Kumar's.”</p>
+    <div class="heritage-stats">
+      <div class="heritage-stat"><div class="heritage-stat-number">40+</div><div class="heritage-stat-title">Years of Purity</div><div class="heritage-stat-copy">Beloved taste since 1984</div></div>
+      <div class="heritage-stat"><div class="heritage-stat-number">100%</div><div class="heritage-stat-title">Pure Desi Ghee</div><div class="heritage-stat-copy">Uncompromised quality</div></div>
+      <div class="heritage-stat"><div class="heritage-stat-number">3</div><div class="heritage-stat-title">Prime Outlets</div><div class="heritage-stat-copy">Convenient Chapra locations</div></div>
+      <div class="heritage-stat"><div class="heritage-stat-number">Lakhs</div><div class="heritage-stat-title">Happy Celebrations</div><div class="heritage-stat-copy">Trusted across generations</div></div>
+    </div>
+    <div class="heritage-diyas" aria-hidden="true">♨ &nbsp; ♨ &nbsp; ♨</div>
+  </section>
 
-    <h2 class="heritage-year">Since 1984</h2>
-    <p class="heritage-tagline">Chapra Ka Apna Brand.</p>
-    <p class="heritage-body">Four decades of serving Chapra with the finest sweets, freshest cakes, and warmest hospitality. Every celebration deserves a touch of Kumar's.</p>
-
-    <div style="height:24px" aria-hidden="true"></div>
-    <div class="ornament ornament-wide" aria-hidden="true"><span class="ornament-diamond"></span></div>
+  <section class="nearest-counter" id="nearest-counter" aria-label="Visit your nearest Kumar's counter">
+    <div class="counter-banner fade-in">
+      <div>
+      <div class="counter-kicker">Celebrations across Chapra</div>
+      <h2 class="counter-title">Visit Your Nearest Kumar's Sweets Counter</h2>
+      <p class="counter-copy"><span>Main Market</span> &bull; <span>Station Road</span> &bull; <span>Hatwa Market</span> &bull; <span>Daily Fresh Express Counters</span></p>
+      <p class="counter-copy">Fresh stock replenished 3 times daily. Gift packaging &amp; mithai hampers readily available in store.</p>
+      </div>
+      <div class="counter-actions">
+        <a href="tel:+917004013495">☎ Direct Counter Call</a>
+        <a href="https://maps.google.com/?q=Kumar's+Sweets+Chapra" target="_blank" rel="noopener noreferrer">⌖ Get Directions &rarr;</a>
+      </div>
+    </div>
   </section>
 
   </main>
@@ -1141,65 +444,46 @@
        5. FOOTER / CONTACT
        ============================================ -->
   <footer class="footer" id="contact" role="contentinfo">
-
-    <h2 class="footer-title fade-in">Contact Us</h2>
-    <div class="footer-brand fade-in">Kumar's</div>
-    <address class="footer-location fade-in" style="font-style:normal">Chapra, Bihar</address>
-
-    <div class="footer-divider" aria-hidden="true"></div>
-
-    <!-- Phone -->
-    <div class="footer-phone fade-in">
-      <div class="footer-phone-label">Call Us</div>
-      <div class="footer-phone-numbers">
-        <a href="tel:+917004013495" class="footer-phone-link" aria-label="Call Kumar's at 7004013495">
-          7004013495
-        </a>
-        <a href="tel:+918210863455" class="footer-phone-link" aria-label="Call Kumar's at 8210863455">
-          8210863455
-        </a>
+    <div class="footer-content">
+      <div class="footer-column">
+        <div class="footer-brand-row">
+          <div class="footer-brand-mark">K</div>
+          <div><h4>Kumar's</h4><div class="footer-brand-place">Chapra, Bihar</div></div>
+        </div>
+        <p class="footer-column-copy">Best Taste &amp; Quality In Chapra. Handcrafting genuine festive memories, traditional Indian sweets, bespoke cakes and catering since 1984.</p>
+        <span class="footer-hashtag">#BestTaste&amp;QualityInChapra</span>
+      </div>
+      <div class="footer-column">
+        <h5 class="footer-column-title">Call &amp; Order</h5>
+        <a class="footer-contact-link" href="tel:+917004013495"><span class="footer-contact-icon">☎</span><span><span class="footer-contact-label">Primary Counter Line</span>+91 70040 13495</span></a>
+        <a class="footer-contact-link" href="tel:+918210863455"><span class="footer-contact-icon">▣</span><span><span class="footer-contact-label">Catering &amp; Bulk Desk</span>+91 82108 63455</span></a>
+      </div>
+      <div class="footer-column">
+        <h5 class="footer-column-title">Social Connect</h5>
+        <a class="footer-social-link" href="https://instagram.com/kumars.chhapra" target="_blank" rel="noopener noreferrer">@kumars.chhapra <span>↗</span></a>
+        <p class="footer-column-copy" style="margin-top:12px">Daily festive updates &amp; reels. Tag us in your Diwali celebration photos with Kumar's Mithai!</p>
+      </div>
+      <div class="footer-column">
+        <h5 class="footer-column-title">Store Timings</h5>
+        <div class="footer-timings">
+          <div><span>Mon - Sun</span><strong>8:00 AM - 10:30 PM</strong></div>
+          <div><span>Festive Days</span><strong>Open Early (7 AM)</strong></div>
+          <p class="footer-column-copy" style="margin-top:10px">All main counters and sweet display cases remain fully operational throughout the festive week.</p>
+        </div>
+        <a class="footer-locator" href="#nearest-counter">Find Our Stores Locator →</a>
       </div>
     </div>
-
-    <!-- Instagram -->
-    <div class="footer-instagram fade-in">
-      <div class="footer-instagram-label">Instagram</div>
-      <a href="https://instagram.com/kumars.chhapra" target="_blank" rel="noopener noreferrer" class="footer-instagram-link" aria-label="Follow Kumar's on Instagram">
-        @kumars.chhapra
-      </a>
+    <div class="footer-bottom">
+      <div>✦ Shubh Deepawali &amp; Happy Celebrations &nbsp; • &nbsp; Chapra, Saran (Bihar)</div>
+      <div>&copy; 2026 Kumar's. All rights reserved.</div>
+      <div><a href="#catering">Catering</a> &nbsp; <a href="#specialties">Offerings</a> &nbsp; <a href="#heritage">Since 1984</a></div>
     </div>
-
-    <!-- Find Stores -->
-    <a href="#stores" class="footer-stores-link fade-in" aria-label="Scroll to store locations">
-      Find Our Stores
-    </a>
-
-    <div class="footer-copyright">&copy; 2026 Kumar's. All rights reserved.</div>
-
   </footer>
 
   <!-- ============================================
        JAVASCRIPT
        ============================================ -->
-  <script>
-    (function() {
-      'use strict';
-      var els = document.querySelectorAll('.fade-in');
-      if (!('IntersectionObserver' in window)) {
-        for (var i = 0; i < els.length; i++) els[i].classList.add('visible');
-        return;
-      }
-      var observer = new IntersectionObserver(function(entries) {
-        for (var i = 0; i < entries.length; i++) {
-          if (entries[i].isIntersecting) {
-            entries[i].target.classList.add('visible');
-            observer.unobserve(entries[i].target);
-          }
-        }
-      }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
-      for (var i = 0; i < els.length; i++) observer.observe(els[i]);
-    })();
-  </script>
+  <script src="js/script.js" defer></script>
 
 </body>
 </html>
