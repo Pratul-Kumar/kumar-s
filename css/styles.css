@@ -4181,3 +4181,224 @@
         font-size: 0.76rem;
       }
     }
+
+    /* Light Diwali cream palette */
+    .festival-hero {
+      background:
+        radial-gradient(circle at 50% 25%, rgba(255, 211, 157, 0.7), transparent 42%),
+        radial-gradient(circle at 50% 100%, rgba(243, 145, 54, 0.16), transparent 38%),
+        linear-gradient(145deg, #fff8ea 0%, #ffe6c3 48%, #fff3dc 100%);
+      color: #5b1830;
+    }
+
+    .diwali-gifting {
+      background:
+        radial-gradient(circle at 50% 18%, rgba(212, 155, 53, 0.2), transparent 34%),
+        radial-gradient(circle at 8% 85%, rgba(255, 122, 26, 0.14), transparent 28%),
+        linear-gradient(180deg, #fff8eb 0%, #ffe9ca 52%, #fff2dd 100%);
+      color: #5b1830;
+    }
+
+    .gifting-card {
+      background: linear-gradient(180deg, rgba(255, 252, 245, 0.98), rgba(255, 244, 226, 0.98));
+      border-color: rgba(196, 117, 47, 0.2);
+      box-shadow: 0 12px 30px rgba(111, 58, 34, 0.1);
+    }
+
+    .stores {
+      background:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(230, 149, 53, 0.24), transparent 70%),
+        linear-gradient(180deg, #fff8eb 0%, #ffe8c8 55%, #fff1dc 100%);
+      color: #5b1830;
+    }
+
+    .store-card {
+      background: linear-gradient(180deg, rgba(255, 252, 245, 0.98), rgba(255, 241, 220, 0.98));
+      border-color: rgba(196, 117, 47, 0.2);
+      box-shadow: 0 12px 30px rgba(111, 58, 34, 0.1);
+    }
+
+    .specialties,
+    .heritage {
+      background:
+        radial-gradient(circle at 50% 0%, rgba(212, 155, 53, 0.2), transparent 38%),
+        radial-gradient(circle at 12% 70%, rgba(173, 78, 86, 0.3), transparent 42%),
+        linear-gradient(180deg, #fff8eb 0%, #ffe8c8 52%, #fff1dc 100%);
+      color: #5b1830;
+    }
+
+    .specialty-item,
+    .heritage-stat {
+      background: linear-gradient(180deg, rgba(255, 252, 245, 0.98), rgba(255, 241, 220, 0.98));
+      border-color: rgba(196, 117, 47, 0.2);
+      box-shadow: 0 12px 30px rgba(111, 58, 34, 0.1);
+    }
+
+    .catering-highlight {
+      background:
+        radial-gradient(circle at 50% 10%, rgba(212, 155, 53, 0.22), transparent 42%),
+        linear-gradient(135deg, #fff1d8, #ffe0ad 50%, #fff7e8);
+      color: #5b1830;
+    }
+
+    .nearest-counter {
+      background: linear-gradient(180deg, #fff1d8, #ffe3b9);
+    }
+
+    .footer {
+      background: linear-gradient(180deg, #6d273d, #4f1730);
+    }
+
+    .page-loader {
+      background: #fff1d8;
+    }
+
+    .festival-hero h1,
+    .festival-hero h1 em,
+    .festival-tagline,
+    .festival-specialties {
+      color: #5b1830;
+    }
+
+    .diwali-gifting .section-title,
+    .diwali-gifting .section-subtitle,
+    .gifting-card-title,
+    .gifting-card-copy,
+    .gifting-card-list {
+      color: #5b1830;
+    }
+
+    .specialties .section-title,
+    .specialty-name,
+    .specialty-copy,
+    .heritage .section-title,
+    .heritage-quote,
+    .heritage-stat-copy {
+      color: #5b1830;
+      text-shadow: none;
+    }
+
+    .specialty-desc,
+    .specialty-meta,
+    .specialty-action,
+    .heritage-stat-title,
+    .heritage-emblem-brand,
+    .heritage-badge {
+      color: #a45b08;
+    }
+
+    .specialties-banner {
+      background: linear-gradient(90deg, #fff1d8, #ffdca7, #fff1d8);
+      border-color: rgba(196, 117, 47, 0.3);
+    }
+
+    .section-label {
+      color: #b8681d;
+    }
+
+    .section-subtitle,
+    .section-microcopy {
+      color: #76594d;
+    }
+
+    .stores .section-label,
+    .stores .section-title,
+    .stores .section-subtitle,
+    .store-name,
+    .store-address,
+    .store-highlights,
+    .store-hours,
+    .stores-assistance-title,
+    .stores-assistance-copy {
+      color: #5b1830;
+    }
+
+    .store-branch-num,
+    .store-pin,
+    .store-hours strong,
+    .store-hours-icon,
+    .stores-assistance-action {
+      color: #b8681d;
+    }
+
+    .catering-highlight {
+      color: #5b1830;
+    }
+
+    .catering-badge {
+      background: #fff1d8;
+      border-color: rgba(184, 104, 29, 0.35);
+      color: #a45b08;
+    }
+
+    .catering-title,
+    .catering-subtitle,
+    .catering-desc,
+    .catering-feature h3,
+    .catering-feature p {
+      color: #5b1830;
+      text-shadow: none;
+    }
+
+    .catering-secondary-cta {
+      border-color: rgba(164, 91, 8, 0.35);
+      color: #8c4c0b;
+    }
+
+    .catering-feature {
+      background: rgba(255, 252, 245, 0.82);
+      border-color: rgba(196, 117, 47, 0.22);
+    }
+
+    .catering-feature-icon {
+      background: #fff1d8;
+      border-color: rgba(196, 117, 47, 0.3);
+      color: #b8681d;
+    }
+
+    .heritage-emblem {
+      background: rgba(255, 248, 234, 0.7);
+      border-color: rgba(164, 91, 8, 0.45);
+    }
+
+    .heritage-emblem-place {
+      color: #76594d;
+    }
+
+    .heritage-stat-number {
+      background: linear-gradient(135deg, #a45b08, #e0a13c, #b8681d);
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+
+    .heritage-diyas {
+      color: #b8681d;
+    }
+
+    .nearest-counter {
+      color: #5b1830;
+    }
+
+    .counter-banner {
+      background: linear-gradient(90deg, #fff1d8, #ffe3b9, #fff1d8);
+      border-color: rgba(196, 117, 47, 0.3);
+    }
+
+    .counter-kicker,
+    .counter-title,
+    .counter-copy {
+      color: #5b1830;
+    }
+
+    .stores .section-header {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    .stores .section-subtitle {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 760px;
+      text-align: center;
+    }
